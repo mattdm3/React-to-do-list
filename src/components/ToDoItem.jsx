@@ -13,6 +13,7 @@ function ToDoItem(props) {
     <div onClick={handleClick}>
       <li style={{ textDecoration: isClicked ? "line-through" : "none" }}>
         {props.text}
+
       </li>
     </div>
   );
